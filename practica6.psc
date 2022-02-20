@@ -1,15 +1,16 @@
 Algoritmo sin_titulo
+	//Definiciones
 	definir precio,tasa_cambio,precio_en_tasa,sub_total como real
 	definir monto_iva,monto_descuento,billetes,monto_total Como Real
 	definir cantidad,porc_descuento como entero
-	
+	// Entradas
 	mostrar "Introduzca el precio en $ del producto que va a comprar:"
 	leer precio
 	mostrar "Introduzca la cantidad de unidades que va a comprar:"
 	leer cantidad
 	mostrar "Cuanto es la tasa de cambio $ -> Bs actual:"
 	leer tasa_cambio
-	
+	//Operaciones y Salidas
 	precio_en_tasa <- precio*tasa_cambio
 	
 	mostrar "el precio en Bs del producto es " precio_en_tasa
